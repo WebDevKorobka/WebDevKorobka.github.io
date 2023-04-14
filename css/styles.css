@@ -13076,7 +13076,10 @@ border-radius: 30px;
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }
-
+@media (max-width: 991px) {
+  .about-image img {
+    display: none;    
+  }
 /* ------------------------------------------------End qualification---------------------------------------------------- */
 
 
